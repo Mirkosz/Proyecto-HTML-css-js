@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juguemos</title>
+    <link rel="stylesheet" href="./proyect.css">
+</head>
+<body>
+    <nav>
+        <a class="binicio" href="./index.html">
+            <svg>
+                <rect id="moni" x="75" y="5" width="65px" height="40px" fill="#F0E9D2" rx="6"></rect>
+                <rect id="pantalla" x="80" y="10" width="55px" height="30px" fill="#495579" rx="6"></rect>
+                <polygon id="base" points="85 50, 130 50, 150 68, 65 68" fill="#F0E9D2"></polygon>
+                <polygon id="teclas" points="88 53, 127 53, 140 65, 75 65" fill="#495579" ></polygon>
+           </svg>
+        </a>
+        <div class="barra-botones">
+            <div class="iteminicio">
+                <a class="botoninicio" href="./historia.html">HISTORIA</a>
+                </div>
+                <div class="iteminicio">
+                <a class="botoninicio" href="./juego.html">JUGUEMOS</a>
+                </div>
+        </div>
+            
+   </nav>
+
+        
+  
+
+    <main>
+            <h1>JUGUEMOS UN POCO</h1>
+            
+        <section class="juego">
+            <h2>Armemos el rompecabezas y veamos que imagen es...</h2>
+            
+            <div class="cuadros">
+                <div class="cuadro" id="cuadrodrop1">
+                    <p>Arrastre y suelte la imagen aqui</p>
+                </div>
+                <div class="cuadro" id="cuadrodrop2">
+                    <p>Arrastre y suelte la imagen aqui</p>
+                </div>
+                <div class="cuadro" id="cuadrodrop3">
+                    <p>Arrastre y suelte la imagen aqui</p>
+                </div>
+            </div>
+            <div id="rompecabezas" >
+               <img id="imgrompe2"  src="./assets/imagenes/rompe2.png">
+               <img id="imgrompe1"  src="./assets/imagenes/Rompe1.png" >
+               <img id="imgrompe3"  src="./assets/imagenes/Rompe3.png">
+            </div>
+        </section>
+
+        <button class="reinicio" onclick="reiniciar()"> Reiniciar</button>
+
+
+    </main>
+
+
+
+   <script src="./script2.js"></script>
+</body>
+</html>
