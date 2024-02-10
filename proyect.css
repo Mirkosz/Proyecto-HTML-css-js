@@ -197,18 +197,18 @@ h2{
     gap: 30px;
 }
 /* ---------------------------------------------HISTORIA HTML----------------------------------------------------*/
-.contorno {
+.contorno{
     display: flex;
     flex-direction: column ;
     justify-content: center ;
     align-items: center;   
 }
 
-.contpadre{
+#contpadre{
     padding: 100px 20px;
 }
 
-.contevideo{
+#contvideo{
     padding: 100px 0px;
 }
 
