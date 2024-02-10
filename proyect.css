@@ -3,46 +3,56 @@
     font-family: 'Montserrat', sans-serif;
     margin: auto 0px;
 }
+
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0px 40px;
 }
+
 .barra-botones{
     display: flex;
     width: 300px;
     justify-content: space-around
 }
+
 .iteminicio{
     display: flex;
     justify-content: end;
     gap: 50px;
 }
+
 a{
     text-decoration: none;
     border-radius: 10px;
     box-shadow: 2px 3px #678983;    
    }
+
 .botoninicio{
     background-color:rgb(230, 221, 196);
     padding: 10px;
     color: black;
 }
+
 .binicio{
     text-decoration: none;
     box-shadow: none
 }
+
 .iteminicio:active{
     transform: translate(3px, 2px);
 }
+
 .iteminicio:active > .botoninicio{
     box-shadow:0px 0px ;
 }
+
 svg{
     width: 150px;
     height: 80px;
 }
+
 #moni, #base{
     animation: anime1 5s ease-in 1
 }
@@ -88,9 +98,11 @@ svg{
             transform:translate(0,0);
             opacity:1;}
     }
+
 body{
     background-color: rgb(24, 28, 48);
 }
+
 h1{
     color: rgb(238, 238, 238);
     font-size: 50px;
@@ -105,6 +117,7 @@ h1{
     align-items: center;
     text-shadow: 2px 2px gray, 6px 6px black;
 }
+
 h2{
     color: rgb(103, 137, 131);
     text-shadow: 2px 2px black;
@@ -112,15 +125,16 @@ h2{
     text-align: center;
     font-size: 40px;
 }
+
 #campotg{
     margin: 100px;
     padding: 100px 20px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 450px;
+    justify-content: space-evenly;
     align-items:center ;
 }
+
 .targetas{
     background-color: rgb(230, 221, 196);
     border: 5px solid;
@@ -131,15 +145,18 @@ h2{
     width: 350px;
     height: 400px;
 }
+
 .imginicio{
     width:350px;
 }
+
 .texto{
     color: black;
     padding: 30px;
     display: flex;
     text-align: center;
 }
+
 .botoncard{
     display: flex;
     justify-content: center;
@@ -150,10 +167,12 @@ h2{
     background-color: rgb(24, 28, 48);
     color: white;
 }
+
 .botoncard:active{
     box-shadow: 0px 0px darkgray;
     transform: translate(3px, 2px);
 }
+
 .pie{
     background-color: rgb(103, 137, 131) ;
     padding: 40px;
@@ -161,6 +180,7 @@ h2{
    justify-content: space-between;
    color: black;
 }
+
 .logopie{
     height: 80px;
 }
@@ -170,6 +190,7 @@ h2{
     font-weight: bolder;
     font-size: 14px;
 }
+
 .contenedor{
     display: flex;
     justify-content: space-between;
@@ -182,12 +203,15 @@ h2{
     justify-content: center ;
     align-items: center;   
 }
+
 .contpadre{
     padding: 100px 20px;
 }
+
 .contevideo{
     padding: 100px 0px;
 }
+
 .bloques{
 color:  rgb(230, 221, 196);
 display: flex;
@@ -196,14 +220,17 @@ align-items: center;
 padding: 80px 50px ;
 gap: 20px;
 }
+
 .texthist{
     width: 45%;
 }
+
 .espaciovideo{
     width: 70%;
     padding: 5px;
     background-color: black;
 }
+
 .barra{
     padding: 20px 5px;
     background-color: #1d1d1d;
@@ -211,10 +238,12 @@ gap: 20px;
     display: flex;
     justify-content: space-between;
 }
+
 .botonesvideo {
     display: flex;
     gap: 20px; 
 }
+
 .botonv{
     width: 80px;
     padding: 10px;
@@ -222,10 +251,12 @@ gap: 20px;
     border-radius: 10px;
     box-shadow: 2px 3px #678983;
 }
+
 .botonv:active{
     box-shadow: 0px 0px darkgray;
     transform: translate(3px, 2px);
 }
+
 .tiempo{
     color: white;
 }
@@ -236,10 +267,12 @@ gap: 20px;
     align-items: center;
     padding: 100px 20px;
 }
+
 .cuadros{
     display: flex;
     flex-direction: row;
 }
+
 .cuadro{
     background-color: grey;
     width: 275px ;
@@ -250,18 +283,22 @@ gap: 20px;
     justify-content: center;
     color:rgb(230, 221, 196);
 }
+
 .cuadro:hover{
     background-color: #1d1d1d;  
 }
+
 #rompecabezas{
     margin: 40px;
     display: flex;
     gap: 10px;
 }
+
 #imgrompe1,#imgrompe2,#imgrompe3 {
     width: 275px;
     height: 400px;
 }
+
 .reinicio{
       padding: 10px 100px;  
       background-color: #E6DDC4;
@@ -272,6 +309,7 @@ gap: 20px;
       justify-content: center;
       margin-bottom: 100px;
 }
+
 .reinicio:active{
     box-shadow: 0px 0px darkgray;
     transform: translate(3px, 2px);

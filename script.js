@@ -7,9 +7,11 @@ setTimeout(()=>{
     for (let i = 0; i < video.time; i++) {
     console.log(video.currentTime);
 };
+
 playBoton.addEventListener('click',()=>{
     video.play();
 });
+
 pauseBoton.addEventListener('click',()=>{
     video.pause();
     flag=false;
